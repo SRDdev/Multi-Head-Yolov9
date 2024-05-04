@@ -1,6 +1,6 @@
-data: '/DeepFashion2-1/data.yaml'
-weights: 'src/weights/gelan-c-seg.pt'
-batch_size: 16
+data: '/content/DeepFashion2-1/data.yaml'
+weights: '/content/Multi-Head-Yolov9/src/weights/gelan-c-seg.pt'
+batch_size: 8
 imgsz: 640
 conf_thres: 0.001
 iou_thres: 0.6

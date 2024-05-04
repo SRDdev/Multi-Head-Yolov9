@@ -1,6 +1,6 @@
-weights: 'yolo.pt'
-source: 'data/images'
-data: 'data/coco128.yaml'
+weights: 'src/weights/yolov9-c.pt'
+source: 'data/images' #provide path to images for prediction.
+data: 'data/coco128.yaml' #provide path to data.yaml
 imgsz: [640]
 conf_thres: 0.25
 iou_thres: 0.45

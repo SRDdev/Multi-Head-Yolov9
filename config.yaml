@@ -1,7 +1,7 @@
-weights: '/content/drive/MyDrive/gelan-c-seg.pt'
-cfg: '/content/yolov9/models/segment/gelan-c-seg.yaml'
+weights: '/content/Multi-Head-Yolov9/src/weights/gelan-c-seg.pt'
+cfg: '/content/Multi-Head-Yolov9/src/yolov9/models/segment/gelan-c-seg.yaml'
 data: '/content/DeepFashion2-1/data.yaml'
-hyp: '/content/yolov9/data/hyps/hyp.scratch-high.yaml'
+hyp: '/content/Multi-Head-Yolov9/src/yolov9/data/hyps/hyp.scratch-high.yaml'
 epochs: 100
 batch_size: 8
 imgsz: 640
