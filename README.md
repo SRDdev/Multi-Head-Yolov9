@@ -57,7 +57,7 @@ The codebase is extensively documented using PyLint to ensure readability and ma
 3. Configure hyperparameters in `config.yaml`.
 4. Train the model:
    ```
-   python trainer.py --config config.yaml
+   python trainer.ipynb
    ```
 5. Visualize results:
    ```
