@@ -1,5 +1,5 @@
-weights: /content/Multi-Head-Yolov9/src/weights/gelan-c-seg.pt
-cfg: /content/Multi-Head-Yolov9/src/yolov9/models/segment/gelan-c-seg.yaml
+weights: /content/Multi-Head-Yolov9/src/weights/yolov9-c.pt
+cfg: /content/SRD_seg.yaml
 data: /content/DeepFashion2-1/data.yaml
 hyp:
   lr0: 0.01
@@ -65,4 +65,4 @@ save_period: -1
 seed: 0
 local_rank: -1
 mask_ratio: 4
-save_dir: runs/train-seg/Detection_Instance
+save_dir: runs/train-seg/Detection_Instance4

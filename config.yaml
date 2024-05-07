@@ -1,5 +1,5 @@
-weights: '/content/Multi-Head-Yolov9/src/weights/gelan-c-seg.pt'
-cfg: '/content/Multi-Head-Yolov9/src/yolov9/models/segment/gelan-c-seg.yaml'
+weights: '/content/Multi-Head-Yolov9/src/weights/yolov9-c.pt'
+cfg: '/content/SRD_seg.yaml'
 data: '/content/DeepFashion2-1/data.yaml'
 hyp: '/content/Multi-Head-Yolov9/src/yolov9/data/hyps/hyp.scratch-high.yaml'
 epochs: 100
