@@ -1,6 +1,6 @@
-# Multi-Head YOLOv9 for Clothes Detection and Instance Segmentation
+# Multi-Head YOLOv9 for Detection and Instance Segmentation
 
-![image](https://github.com/SRDdev/Multi-Head-Yolov9/blob/a58ce69256358d65679f18e4f894f15390b62f88/runs/output/val_batch1_pred.jpg)
+![YOLO V9](https://github.com/SRDdev/Multi-Head-Yolov9/assets/84516626/5087545b-33a1-46a1-a050-301737753b85)
 
 ## Overview
 This repository contains the implementation of a multi-head YOLOv9 model for clothes detection and instance segmentation. The model is trained on the DeepFashion dataset and evaluated using MSCOCO evaluation metrics. It predicts bounding boxes, instance segmentation masks, category labels, and confidence scores simultaneously.
